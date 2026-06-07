@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUOV Houysang Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+
+        <div class="nav-left">
+            <div class="hamburger" onclick="toggleMenu()">☰</div>
+            <a href="#hero" class="logo">GUOV HOUYSANG</a>
+        </div>
+
+        <ul id="nav-menu">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button id="theme-toggle" class="theme-btn">🌙</button>
+
+    </nav>
+</header>
+
+<!-- HERO -->
+<section id="hero">
+    <div class="hero-container">
+
+        <div class="hero-text">
+            <h1>Hi, I'm GUOV Houysang</h1>
+            <h2>Web Developer | UX/UI Designer</h2>
+
+            <p>
+                Fourth-year Computer Engineering student at the Institute of Technology of Cambodia (ITC), 
+                passionate about web development, UI/UX design, 
+                and creating user-friendly web applications and continuously learning new technologies.
+
+            </p>
+
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+
+        <div class="hero-image">
+            <img src="image/profile.jpg" alt="Profile Photo">
+        </div>
+
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a fourth-year Information and Communication Engineering student at the Institute of Technology of Cambodia (ITC) with an interest in web development. 
+        Through academic and personal projects, I have learned to build responsive web applications using HTML, CSS, JavaScript, Vue.js, Nest.js, Java, Spring Boot, and MySQL. 
+        I enjoy creating user-friendly websites and learning new technologies to improve my development skills.
+    </p>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+    <h2>Education</h2>
+
+    <div class="education-card">
+        <h3>Bachelor of Engineering in Information and Communication Engineering</h3> 
+        <p>Institute of Technology of Cambodia (ITC) | 2022 – Present</p> 
+        <p>Fourth-year student developing knowledge and skills in web development, database systems, algorithms, and network design.</p>
+
+        <h3>General English Program (GEP 9B)</h3> 
+        <p>Australian Centre for Education (ACE) | 2023 – Present</p> 
+        <p>Improving academic English skills: reading, writing, speaking, and listening.</p>
+        
+    </div>
+</section>
+
+<!-- SKILLS (NESTED BOXES + ICONS) -->
+<section id="skills">
+    <h2>Technical Skills</h2>
+
+    <div class="skills-grid">
+
+        <!-- FRONTEND -->
+        <div class="skills-box">
+            <h3>Frontend</h3>
+
+            <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
+                <span>HTML</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
+                <span>CSS</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+                <span>JavaScript</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg">
+                <span>Vue.js</span>
+            </div>
+        </div>
+
+        <!-- BACKEND -->
+        <div class="skills-box">
+            <h3>Backend</h3>
+
+            <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
+                <span>Java</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg">
+                <span>Spring Boot</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">
+                <span>MySQL</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png">
+                <span>C++</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg">
+                <span>NestJS</span>
+            </div>
+        </div>
+
+        <!-- DESIGN -->
+        <div class="skills-box">
+            <h3>Design</h3>
+
+            <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg">
+                <span>Figma</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" alt="Canva">
+                <span>Canva</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png">
+                <span>UI/UX</span>
+            </div>
+        </div>
+
+        <!-- TOOLS -->
+        <div class="skills-box">
+            <h3>Tools</h3>
+
+            <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
+                <span>Git</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg">
+                <span>GitHub</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png">
+                <span>Flutter</span>
+                <small>Basic</small>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" class="lightbox" onclick="outsideClick(event)">
+    <span class="close-btn" onclick="closeLightbox()">✖</span>
+    <button class="nav-btn prev" onclick="prevImage(event)">❮</button>
+    <img id="lightbox-img">
+    <button class="nav-btn next" onclick="nextImage(event)">❯</button>
+
+</div>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>Library System</h3>
+        <p>Java + Spring Boot system for managing books.</p>
+
+        <div class="project-images">
+            <img src="image/Library-home.png" onclick="openLightbox(this)">
+            <img src="image/Library-editBook.png" onclick="openLightbox(this)">
+            <img src="image/Library-dashboard.png" onclick="openLightbox(this)">
+            <img src="image/Library-addBook.png" onclick="openLightbox(this)">
+        </div>
+    </div>
+
+    <div class="project">
+        <h3>Organic E-Commerce</h3>
+        <p>Vue.js platform for local products.</p>
+
+        <div class="project-images">
+            <img src="image/e-commerce-home.png" onclick="openLightbox(this)">
+            <img src="image/e-commerce-productDetail.png" onclick="openLightbox(this)">
+            <img src="image/e-commerce-category.png" onclick="openLightbox(this)">
+            <img src="image/e-commerce-orderList.png" onclick="openLightbox(this)">
+            <img src="image/e-commerce-admin.png" onclick="openLightbox(this)">
+        </div>
+    </div>
+
+    <div class="project">
+        <h3>Online Bookstore</h3>
+        <p>Cart, wishlist, and categories system.</p>
+
+        <div class="project-images">
+            <img src="image/book-home.png" onclick="openLightbox(this)">
+            <img src="image/book-category.png" onclick="openLightbox(this)">
+            <img src="image/book-list.png" onclick="openLightbox(this)">
+            <img src="image/book-cart.png" onclick="openLightbox(this)">
+        </div>
+    </div>
+
+    <div class="project">
+        <h3>Airline System</h3>
+        <p>Database system for flights and tickets.</p>
+
+        <div class="project-images">
+            <img src="image/airline-er.png" onclick="openLightbox(this)">
+            <img src="image/airline-schema.png" onclick="openLightbox(this)">
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <p>Email: guovhouysang@gmail.com</p>
+    <p>Phone: +855 76 855 5552</p>
+    <p>Location: Boeng Salang, Toul Kork, Phnom Penh, Cambodia</p>
+
+    <p>
+        GitHub:
+        <a href="https://github.com/houysang" target="_blank">
+            github.com/houysang
+        </a>
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 GUOV Houysang. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
