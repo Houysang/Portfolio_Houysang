@@ -172,7 +172,7 @@
                 <span>Git</span>
             </div>
 
-            <div class="skill-item">
+            <div class="github-icon">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg">
                 <span>GitHub</span>
             </div>
@@ -200,52 +200,209 @@
 <section id="projects">
     <h2>Projects</h2>
 
+    <!-- 1. Material Exchange Platform -->
     <div class="project">
-        <h3>Library System</h3>
-        <p>Java + Spring Boot system for managing books.</p>
 
-        <div class="project-images">
+        <h3>Material Exchange Platform</h3>
+        <p>Vue.js + NestJS</p>
+        <p class="project-type team">Team Project</p>
+
+        <!-- MAIN IMAGE -->
+        <div class="project-main">
+            <img src="image/xchange-home.png" onclick="openLightbox(this)">
+        </div>
+
+        <!-- PREVIEW IMAGES (ONLY 2) -->
+        <div class="project-preview">
+            <img src="image/xchange-product.png" onclick="openLightbox(this)">
+            <img src="image/xchange-admin.png" onclick="openLightbox(this)">
+        </div>
+
+        <!-- HIDDEN FULL GALLERY (ALL IMAGES) -->
+        <div class="project-gallery" style="display:none;">
+            <img src="image/xchange-home.png">
+            <img src="image/xchange-product.png">
+            <img src="image/xchange-admin.png">
+            <img src="image/xchange-chat.png">
+            <img src="image/xchange-post.png">
+            <img src="image/xchange-profile.png">
+        </div>
+
+        <!-- BUTTONS -->
+        <div class="project-buttons">
+            <a href="https://github.com/Th3ngSer/Material-Exchange-Platform.git"
+               target="_blank"
+               class="btn secondary">
+                View on GitHub
+            </a>
+
+            <button class="btn secondary" onclick="openProjectGallery(this)">
+                View More Screenshots
+            </button>
+        </div>
+
+    </div>
+
+
+    <!-- 2. Organic E-Commerce -->
+    <div class="project">
+
+        <h3>Organic E-Commerce</h3>
+        <p>Vue.js + NestJS</p>
+        <p class="project-type team">Team Project</p>
+
+        <!-- MAIN IMAGE -->
+        <div class="project-main">
+            <img src="image/ecommerce-home.png" onclick="openLightbox(this)">
+        </div>
+
+        <!-- PREVIEW IMAGES (ONLY 2) -->
+        <div class="project-preview">
+            <img src="image/ecommerce-product.png" onclick="openLightbox(this)">
+            <img src="image/ecommerce-admin.png" onclick="openLightbox(this)">
+        </div>
+
+        <!-- HIDDEN FULL GALLERY (ALL IMAGES) -->
+        <div class="project-gallery" style="display:none;">
+            <img src="image/ecommerce-home.png">
+            <img src="image/ecommerce-product.png">
+            <img src="image/ecommerce-admin.png">
+            <img src="image/ecommerce-category.png">
+            <img src="image/ecommerce-orderList.png">
+            <img src="image/ecommerce-cart.png">
+            <img src="image/ecommerce-login.png">
+            <img src="image/ecommerce-product.png">
+        </div>
+
+        <div class="project-buttons">
+            <a href="https://github.com/tithyarita/Khmer-organic-food-project.git"
+               target="_blank"
+               class="btn secondary">
+                View on GitHub
+            </a>
+
+            <button class="btn secondary" onclick="openProjectGallery(this)">
+                View More Screenshots
+            </button>
+        </div>
+
+    </div>
+
+
+    <!-- 3. Library System -->
+    <div class="project">
+
+        <h3>Library System</h3>
+        <p>Java + Spring Boot</p>
+        <p class="project-type team">Team Project</p>
+        
+        <!-- MAIN IMAGE -->
+        <div class="project-main">
             <img src="image/Library-home.png" onclick="openLightbox(this)">
-            <img src="image/Library-editBook.png" onclick="openLightbox(this)">
+        </div>
+
+        <!-- PREVIEW IMAGES (ONLY 2) -->
+        <div class="project-preview">
             <img src="image/Library-dashboard.png" onclick="openLightbox(this)">
             <img src="image/Library-addBook.png" onclick="openLightbox(this)">
         </div>
-    </div>
 
-    <div class="project">
-        <h3>Organic E-Commerce</h3>
-        <p>Vue.js platform for local products.</p>
-
-        <div class="project-images">
-            <img src="image/e-commerce-home.png" onclick="openLightbox(this)">
-            <img src="image/e-commerce-productDetail.png" onclick="openLightbox(this)">
-            <img src="image/e-commerce-category.png" onclick="openLightbox(this)">
-            <img src="image/e-commerce-orderList.png" onclick="openLightbox(this)">
-            <img src="image/e-commerce-admin.png" onclick="openLightbox(this)">
+        <!-- HIDDEN FULL GALLERY (ALL IMAGES) -->
+        <div class="project-gallery" style="display:none;">
+            <img src="image/Library-home.png">
+            <img src="image/Library-dashboard.png">
+            <img src="image/Library-addBook.png">
+            <img src="image/Library-editBook.png">
+            <img src="image/Library-uml.png">
         </div>
+
+        <div class="project-buttons">
+            <a href="https://github.com/tithyarita/Project4-Library-Borrowing-and-Book-Tracking-System.git"
+               target="_blank"
+               class="btn secondary">
+                View on GitHub
+            </a>
+
+            <button class="btn secondary" onclick="openProjectGallery(this)">
+                View More Screenshots
+            </button>
+        </div>
+
     </div>
 
-    <div class="project">
-        <h3>Online Bookstore</h3>
-        <p>Cart, wishlist, and categories system.</p>
 
-        <div class="project-images">
+    <!-- 4. Online Bookstore -->
+    <div class="project">
+
+        <h3>Online Bookstore</h3>
+        <p>Cart, wishlist, and categories system</p>
+        <p class="project-type individual">Individual Project</p>
+
+        <!-- MAIN IMAGE -->
+        <div class="project-main">
             <img src="image/book-home.png" onclick="openLightbox(this)">
-            <img src="image/book-category.png" onclick="openLightbox(this)">
-            <img src="image/book-list.png" onclick="openLightbox(this)">
+        </div>
+
+        <!-- PREVIEW IMAGES (ONLY 2) -->
+        <div class="project-preview">
+            <img src="image/book-wishlist.png" onclick="openLightbox(this)">
             <img src="image/book-cart.png" onclick="openLightbox(this)">
         </div>
-    </div>
 
-    <div class="project">
-        <h3>Airline System</h3>
-        <p>Database system for flights and tickets.</p>
-
-        <div class="project-images">
-            <img src="image/airline-er.png" onclick="openLightbox(this)">
-            <img src="image/airline-schema.png" onclick="openLightbox(this)">
+        <!-- HIDDEN FULL GALLERY (ALL IMAGES) -->
+        <div class="project-gallery" style="display:none;">
+            <img src="image/book-home.png">
+            <img src="image/book-wishlist.png">
+            <img src="image/book-cart.png">
+            <img src="image/book-category.png">
+            <img src="image/book-product.png">
+            <img src="image/book-shop.png">
         </div>
+
+        <div class="project-buttons">
+            <button class="btn secondary" onclick="openProjectGallery(this)">
+                View More Screenshots
+            </button>
+        </div>
+
     </div>
+
+
+    <!-- 5. Airline System -->
+    <div class="project">
+
+        <h3>Airline System</h3>
+        <p>Database system for flights and tickets</p>
+        <p class="project-type team">Team Project</p>
+
+        <!-- MAIN IMAGE -->
+        <div class="project-main">
+            <img src="image/airline-er.png" onclick="openLightbox(this)">
+        </div>
+
+        <!-- PREVIEW IMAGES (ONLY 2) -->
+        <div class="project-preview">
+            <img src="image/airline-schema.png" onclick="openLightbox(this)">
+            <img src="image/airline-query.png" onclick="openLightbox(this)">
+        </div>
+
+        <!-- HIDDEN FULL GALLERY (ALL IMAGES) -->
+        <div class="project-gallery" style="display:none;">
+            <img src="image/airline-er.png">
+            <img src="image/airline-schema.png">
+            <img src="image/airline-query.png">
+            <img src="image/airline-passenger.png">
+            <img src="image/airline-table.png">
+        </div>
+
+        <div class="project-buttons">
+            <button class="btn secondary" onclick="openProjectGallery(this)">
+                View More Screenshots
+            </button>
+        </div>
+
+    </div>
+
 </section>
 
 <!-- CONTACT -->
